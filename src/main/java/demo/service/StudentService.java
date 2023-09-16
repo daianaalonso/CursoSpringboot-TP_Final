@@ -1,10 +1,9 @@
-package com.example.demo.service;
+package demo.service;
 
-import com.example.demo.domain.Student;
-import com.example.demo.dto.StudentDTO;
-import com.example.demo.repository.StudentRepository;
+import demo.domain.Student;
+import demo.dto.StudentDTO;
+import demo.repository.StudentRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

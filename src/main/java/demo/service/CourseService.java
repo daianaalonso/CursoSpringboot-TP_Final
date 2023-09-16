@@ -1,8 +1,8 @@
-package com.example.demo.service;
+package demo.service;
 
-import com.example.demo.domain.Course;
-import com.example.demo.dto.CourseDTO;
-import com.example.demo.repository.CourseRepository;
+import demo.domain.Course;
+import demo.dto.CourseDTO;
+import demo.repository.CourseRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

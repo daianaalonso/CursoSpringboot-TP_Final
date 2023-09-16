@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package demo.controller;
 
-import com.example.demo.dto.CourseDTO;
-import com.example.demo.service.CourseService;
+import demo.dto.CourseDTO;
+import demo.service.CourseService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

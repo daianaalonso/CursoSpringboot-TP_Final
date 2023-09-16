@@ -1,7 +1,7 @@
-package com.example.demo.repository;
+package demo.repository;
 
-import com.example.demo.domain.Inscription;
-import com.example.demo.domain.State;
+import demo.domain.Inscription;
+import demo.domain.State;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

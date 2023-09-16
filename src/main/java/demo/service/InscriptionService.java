@@ -1,14 +1,13 @@
-package com.example.demo.service;
+package demo.service;
 
-import com.example.demo.domain.Course;
-import com.example.demo.domain.Inscription;
-import com.example.demo.domain.State;
-import com.example.demo.domain.Student;
-import com.example.demo.dto.InscriptionDTO;
-import com.example.demo.repository.CourseRepository;
-import com.example.demo.repository.InscriptionRepository;
-import com.example.demo.repository.StudentRepository;
-import jakarta.transaction.Transactional;
+import demo.domain.Course;
+import demo.domain.Inscription;
+import demo.domain.State;
+import demo.domain.Student;
+import demo.dto.InscriptionDTO;
+import demo.repository.CourseRepository;
+import demo.repository.InscriptionRepository;
+import demo.repository.StudentRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
